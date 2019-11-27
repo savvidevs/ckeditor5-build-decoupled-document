@@ -36,6 +36,9 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
+// Savvior Added
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
+
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
 // Plugins to include in the build.
@@ -68,7 +71,8 @@ DecoupledEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+    PageBreak
 ];
 
 // Editor configuration.
@@ -101,7 +105,8 @@ DecoupledEditor.defaultConfig = {
 			'mediaEmbed',
 			'|',
 			'undo',
-			'redo'
+			'redo',
+            'pageBreak'
 		]
 	},
 	image: {
