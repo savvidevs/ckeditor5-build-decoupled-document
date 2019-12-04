@@ -60,6 +60,7 @@ DecoupledEditor.builtinPlugins = [
 	Heading,
 	Image,
 	ImageCaption,
+    ImageResize,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
