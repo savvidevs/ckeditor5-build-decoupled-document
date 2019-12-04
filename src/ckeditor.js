@@ -38,6 +38,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 // Savvior Added
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
